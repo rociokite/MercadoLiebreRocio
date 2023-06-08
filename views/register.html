@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/registro" method="POST">
+
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" name="nombre" id="nombre">
+        <BR>
+
+        <label for="usuario">Nombre de Usuario:</label>
+        <input type="text" name="usuario" id="usuario">
+        <BR>
+
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" name="fecha" id="fecha">
+        <BR>
+
+        <label for="Domicilio">Domicilio:</label>
+        <input type="text" name="Domicilio" id="Domicilio">
+        <BR>
+
+        <label>Perfil de Usuario</label>
+        <select>
+            <option>Comprar</option>
+            <option>Vender</option>
+        </select>
+        <BR>
+
+        <label>Categorias de Interes:</label>
+            <input type="checkbox" name="combo" value="Electro" />
+            <label for="Electro">Electro</label>
+            <input type="checkbox" name="combo" value="Moda" />
+            <label for="Moda">Moda</label>
+            <input type="checkbox" name="combo" value="Hogar" />
+            <label for="Hogar">Hogar</label>
+            <input type="checkbox" name="combo" value="Jugueteria" />
+            <label for="Jugueteria">Jugueteria</label>
+            <input type="checkbox" name="combo" value="Vida Sana" />
+            <label for="Vida Sana">Vida Sana</label>
+        <BR>
+
+        <label for="Contraseña">Contraseña:</label>
+        <input type="password" name="Contraseña" id="Contraseña">
+        <BR>
+
+        <label for="Contraseña">Confirmar Contraseña:</label>
+        <input type="password" name="Contraseña" id="Contraseña">
+        <BR>
+    
+        <label for="Foto">Foto del Usuario:</label>
+        <input type="file" name="archivo" accept=".jpg" multiple id="Foto"/>
+        <BR>
+
+
+        <button type="submit"> Enviar </button> 
+        <button type="reset"> Cancelar </button> 
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,161 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+
+body {
+    font-family: 'roboto';
+}
+
+    header{
+        background-color:#EAC926; 
+        padding: 20px;
+        width: 100%;
+        margin: 0px;
+    }
+
+        .Logo{
+            width:30vw;
+        }
+
+        i.buscador{
+            margin: 15;
+            padding: 20;
+            align-items: end
+        }
+        .compra{
+            text-align: center;
+            padding: 15px;
+            display: block;
+            
+        }
+
+            #dad{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                text-decoration: none;
+                
+            }
+            
+                li {
+                    font-size: 12px;
+                    padding: 2px;
+                }
+
+        .Divisor{
+            margin: 0px;
+        }
+
+    main{
+        background-color:#ebebeb;
+        width: 90%;                                 /*consigna*/
+        justify-content: center;                     /*consigna*/
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    main section article i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width:30px;
+        height: 30px;
+        border: 1px solid #39b54a ;
+        background-color:  #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        }
+    
+            
+            h2 {
+                font-size: 24px;
+                margin: 2px;
+            }
+
+            #padre{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            #Prod{
+                background-color: white;
+                margin: 5px;
+                border-top:solid 1px #ebebeb;                 /*no anda*/
+                padding: 15px;                       /*consigna*/
+                
+            }
+
+            #prod.img{
+                width: 250px;
+            }
+
+                p {
+                    font-size: 12px;
+                }
+
+                .precio {
+                    width: 30%;
+                    font-size: 18px;
+                }
+                
+                .descuento {
+                    width: 70%;
+                    font-size: 16px;
+                    color: green;
+                }
+                
+                .descripcion{
+                    font-size: 16px;
+                }
+
+    footer{
+        background-color:#ebebeb;
+        text-align: center;
+        padding: 20vw;
+        
+    }
+        .notas{
+            padding: 2vw;
+        }
+            #itemF{
+                size: 2em;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                display: block;
+                margin-block-start: 0.1em;
+                margin-block-end: 0.1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
+
+}
